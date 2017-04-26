@@ -30,6 +30,14 @@
         android:onClick="act"
         android:background="@android:drawable/ic_menu_preferences" />
 
+    <com.facebook.share.widget.ShareButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:id="@+id/fbShare" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,4 +46,12 @@
         android:layout_above="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="51dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fbLogin"
+        android:layout_below="@+id/fbShare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
 </RelativeLayout>

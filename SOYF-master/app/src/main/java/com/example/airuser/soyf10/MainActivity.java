@@ -15,6 +15,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 
 import java.util.Calendar;
+import com.facebook.FacebookSdk;
 
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
